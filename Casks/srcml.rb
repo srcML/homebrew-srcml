@@ -1,5 +1,5 @@
 cask "srcml" do
-  version "1.0.0"
+  version "1.0.0-2"
   sha256 "dc86540be44f5653b4e71baae0e4db0a16ee82fe001448a19fcae1ab9374e9f3"
 
   # URL can be an https:// link or a file:// link

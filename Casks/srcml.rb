@@ -1,6 +1,6 @@
 cask "srcml" do
   version "1.0.0"
-  sha256 "9f7017c0573091509bb0156a37cc6ee78c2e08e2250ca425307c17c0417bb7b0"
+  sha256 "06afc13b01ae9c86cd93b7b73bd9af9e43173b32fd84df87a94812fbc246ce66"
 
   # URL can be an https:// link or a file:// link
   url "http://66.228.46.28/srcml-1.0.0-macOS.pkg"

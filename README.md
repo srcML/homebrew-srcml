@@ -1,10 +1,10 @@
-# SrcML Srcml
+# srcml
 
 ## How do I install these formulae?
 
 `brew install srcml/srcml/<formula>`
 
-Or `brew tap srcml/srcml` and then `brew install <formula>`.
+Or `brew tap srcml/srcml` and then `brew install srcml`.
 
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 

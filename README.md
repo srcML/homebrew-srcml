@@ -1,18 +1,24 @@
 # srcml
 
-## How do I install these formulae?
+Conversion of source code to/from the srcML format, querying and manipulation of srcML.
 
-`brew install srcml/srcml/<formula>`
+For more information see [srcml.org](https://www.srcml.org)
 
-Or `brew tap srcml/srcml` and then `brew install srcml`.
+## How do I install srcml?
 
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "srcml/srcml"
-brew "<formula>"
+```console
+brew tap srcml/srcml
+brew install srcml
 ```
 
-## Documentation
+## How do I uninstall srcml?
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```console
+brew uninstall srcml
+```
+
+## How do I uninstall the srcml tap?
+
+```console
+brew untap srcml/srcml
+```

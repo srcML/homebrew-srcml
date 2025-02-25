@@ -15,6 +15,6 @@ class Srcml < Formula
   end
 
   test do
-    system "#{bin}/srcml", "--version"
+    system bin/"srcml", "--version"
   end
 end

@@ -1,5 +1,5 @@
 class Srcml < Formula
-  desc "srcML: Conversion of source code to/from the srcML format, querying and manipulation of srcML"
+  desc "srcML: Convert source code to/from the srcML format, querying and manipulation"
   homepage "https://www.srcml.org"
   url "http://66.228.46.28/srcml-1.0.0-macOS-arm64.tar.gz"
   head "https://github.com/srcML/srcML.git", branch: "develop"

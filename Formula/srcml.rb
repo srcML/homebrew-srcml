@@ -6,7 +6,7 @@ class Srcml < Formula
 
   if Hardware::CPU.arm?
     url "http://66.228.46.28/srcml-1.0.0-macOS-arm64.tar.gz"
-    sha256 "e9ac9838b91cf80055489fc6b8d61572d559b78e2dd6ef4062782d8729e9efdb"
+    sha256 "49411fede70263e2cc5f2f4c35170b925eed4a82f79a16207a87214646c090ca"
   elsif Hardware::CPU.intel?
     url "http://66.228.46.28/srcml-1.0.0-macOS-x86_64.tar.gz"
     sha256 "b1df3d9c6f29b2ff0bcdf0a9d624057066236e0b63011f2e28caf44fb0d3f961"

@@ -5,11 +5,11 @@ class Srcml < Formula
   head "https://github.com/srcML/srcML.git", branch: "v1.1.0-beta"
 
   if Hardware::CPU.arm?
-    url "https://github.com/srcML/srcML/releases/download/v1.1.0-beta/srcml-1.1.0-macOS-arm64.pkg"
-    sha256 "ea4d0a59150d235596b61137e62066d153a1da5b59058c016d4ba27e23a0a072"
+    url "https://github.com/srcML/srcML/releases/download/v1.1.0-beta/srcml-1.1.0-macOS-arm64.tar.gz"
+    sha256 "293f4a8d36913494ad0b8fc3bd894a3201bbf723e9977228c14462dfd8deb8d4"
   elsif Hardware::CPU.intel?
-    url "https://github.com/srcML/srcML/releases/download/v1.1.0-beta/srcml-1.1.0-macOS-x86_64.pkg"
-    sha256 "2a99a9950e765c1b9b5e9835c4a5df282a35cc8ef7aae3da2dbd81987c925ff9"
+    url "https://github.com/srcML/srcML/releases/download/v1.1.0-beta/srcml-1.1.0-macOS-x86_64.tar.gz"
+    sha256 "07811241428e1fc0cecdc9ac15bcdfa385f29428873ca0990652983f0e1e125c"
   end
 
   depends_on :macos

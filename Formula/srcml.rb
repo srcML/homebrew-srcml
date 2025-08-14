@@ -1,15 +1,15 @@
 class Srcml < Formula
   desc "Convert source code to and from the srcML format, querying and manipulation"
   homepage "https://www.srcml.org"
-  version "1.1.0-beta"
-  head "https://github.com/srcML/srcML.git", branch: "v1.1.0-beta"
+  version "1.1.0"
+  head "https://github.com/srcML/srcML.git", tag: "v1.1.0"
 
   if Hardware::CPU.arm?
-    url "https://github.com/srcML/srcML/releases/download/v1.1.0-beta/srcml-1.1.0-macOS-arm64.tar.gz"
-    sha256 "293f4a8d36913494ad0b8fc3bd894a3201bbf723e9977228c14462dfd8deb8d4"
+    url "https://github.com/srcML/srcML/releases/download/v1.1.0/srcml-1.1.0-macOS-arm64.tar.gz"
+    sha256 "38e67facd9292b4a06fee0e7f6a4269a3218d0ccfabf1cb5c6ccadd57e36abc3"
   elsif Hardware::CPU.intel?
-    url "https://github.com/srcML/srcML/releases/download/v1.1.0-beta/srcml-1.1.0-macOS-x86_64.tar.gz"
-    sha256 "07811241428e1fc0cecdc9ac15bcdfa385f29428873ca0990652983f0e1e125c"
+    url "https://github.com/srcML/srcML/releases/download/v1.1.0/srcml-1.1.0-macOS-x86_64.tar.gz"
+    sha256 "7fa89298a60738edfe61179d0dcc57051c381ba53d917d5f5c69a9f8e964dca2"
   end
 
   depends_on :macos

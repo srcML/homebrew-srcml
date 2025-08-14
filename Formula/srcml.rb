@@ -2,7 +2,6 @@ class Srcml < Formula
   desc "Convert source code to and from the srcML format, querying and manipulation"
   homepage "https://www.srcml.org"
   version "1.1.0"
-  head "https://github.com/srcML/srcML.git", tag: "v1.1.0"
 
   if Hardware::CPU.arm?
     url "https://github.com/srcML/srcML/releases/download/v1.1.0/srcml-1.1.0-macOS-arm64.tar.gz"

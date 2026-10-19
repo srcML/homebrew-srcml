@@ -14,6 +14,8 @@ class Srcml < Formula
 
   depends_on :macos
 
+  conflicts_with "srcml-preview", because: "both install the srcml command and libsrcml"
+
   def install
     prefix.install Dir["usr/local/*"]
   end
